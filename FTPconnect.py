@@ -4,7 +4,7 @@ import time
 from termcolor import colored
 
 def display_welcome_message():
-    message = colored("Welcome by lothbrok9", "magenta")
+    message = colored("Welcome by L0THBROK", "magenta")
     for char in message:
         print(char, end='', flush=True)
         time.sleep(0.1)
